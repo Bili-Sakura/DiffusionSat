@@ -24,13 +24,13 @@ from diffusers.utils import (
     randn_tensor,
     replace_example_docstring,
 )
-from diffusers.pipeline_utils import DiffusionPipeline
-from diffusers.pipelines.stable_diffusion import StableDiffusionPipelineOutput
+from diffusers.pipelines.pipeline_utils import DiffusionPipeline
+from diffusers.pipelines.stable_diffusion.pipeline_output import StableDiffusionPipelineOutput
 from diffusers.pipelines.stable_diffusion.safety_checker import StableDiffusionSafetyChecker
 from diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion import (
     StableDiffusionPipeline as DiffusersStableDiffusionPipeline,
 )
-from diffusers.pipelines.controlnet.pipeline_stable_diffusion_controlnet import (
+from diffusers.pipelines.controlnet.pipeline_controlnet import (
     StableDiffusionControlNetPipeline as DiffusersControlNetPipeline,
 )
 

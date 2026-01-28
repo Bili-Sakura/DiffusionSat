@@ -14,13 +14,13 @@ from diffusers.models.attention import AttentionMixin
 from diffusers.models.controlnets.controlnet import ControlNetOutput, zero_module
 from diffusers.models.embeddings import TimestepEmbedding, Timesteps
 from diffusers.models.modeling_utils import ModelMixin
-from diffusers.models.unet_2d_blocks import (
+from diffusers.models.unets.unet_2d_blocks import (
     CrossAttnDownBlock2D,
     DownBlock2D,
     UNetMidBlock2DCrossAttn,
     get_down_block,
 )
-from diffusers.models.transformer_temporal import TransformerTemporalModel
+from diffusers.models.transformers.transformer_temporal import TransformerTemporalModel
 from diffusers.utils import logging
 
 from .sat_unet import SatUNet

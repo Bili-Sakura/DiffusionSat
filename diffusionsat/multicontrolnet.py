@@ -9,7 +9,7 @@ import torch
 from diffusers.models.controlnets.multicontrolnet import (
     MultiControlNetModel as HfMultiControlNetModel,
 )
-from diffusers.models.unet_2d_blocks import CrossAttnDownBlock2D, DownBlock2D
+from diffusers.models.unets.unet_2d_blocks import CrossAttnDownBlock2D, DownBlock2D
 from diffusers.utils import logging
 
 from .controlnet import ControlNetOutput
