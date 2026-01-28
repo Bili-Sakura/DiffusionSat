@@ -1,36 +1,4 @@
-.vscode
-!src
-models
-!src/rsedit/models
-datasets
-outputs
-
-*.pptx
-*.aux
-*.bbl
-*.blg
-*.idx
-*.ind
-*.lof
-*.lot
-*.out
-*.toc
-*.acn
-*.acr
-*.alg
-*.glg
-*.glo
-*.gls
-*.ist
-*.fls
-*.log
-*.fdb_latexmk
-*.snm
-*.synctex.gz
-*.nav
-*.run.xml
-*.bcf
-
+ckpt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
